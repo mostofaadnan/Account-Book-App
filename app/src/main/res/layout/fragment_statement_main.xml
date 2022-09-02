@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground"
+    tools:context=".Fragment.StatementMain"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F2F3F5"
+        android:isScrollContainer="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E91E63"
+                android:padding="5dp"
+                android:text="Statement"
+                android:textColor="#F1EFEF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/accactivityst_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_border"
+                    android:drawableTop="@drawable/balance"
+                    android:padding="5dp"
+                    android:text="Account Activity"
+                    android:textColor="#1B1616"
+                    android:textSize="14sp"
+                    app:backgroundTint="#FFFFFF"
+                    app:iconTint="#F44336" />
+
+                <Button
+                    android:id="@+id/cashstbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_border"
+                    android:drawableTop="@drawable/cash"
+                    android:padding="5dp"
+                    android:text="Cash Activity"
+                    android:textColor="#1B1616"
+                    android:textSize="14sp"
+                    app:backgroundTint="#FFFFFF"
+                    app:iconTint="#F44336" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/loanBtn"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_border"
+                    android:drawableTop="@drawable/loan"
+                    android:padding="5dp"
+                    android:text="Personal Loan"
+                    android:textColor="#1B1616"
+                    android:textSize="14sp"
+                    app:backgroundTint="#FFFFFF"
+                    app:iconTint="#F44336" />
+
+                <Button
+                    android:id="@+id/expenseBtn"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_border"
+                    android:drawableTop="@drawable/expensive"
+                    android:padding="5dp"
+                    android:text="Expenses Activity"
+                    android:textColor="#1B1616"
+                    android:textSize="14sp"
+                    app:backgroundTint="#FFFFFF" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

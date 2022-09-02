@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Account Book</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="cash">Cash</string>
+    <string name="logout">Logout</string>
+    <string name="deshboard">Home</string>
+    <string name="bank_activitys">Bank activity</string>
+    <string-array name="status_array">
+        <item>Active</item>
+        <item>Inactive</item>
+    </string-array>
+    <string-array name="cash_array">
+        <item>Cash In</item>
+        <item>Cash Out</item>
+    </string-array>
+    <string-array name="loan_array">
+        <item>Debt</item>
+        <item>Loan repayment</item>
+    </string-array>
+    <string-array name="source_array">
+        <item>Cash</item>
+        <item>Bank</item>
+    </string-array>
+    <string-array name="bank_type">
+        <item>Credit</item>
+        <item>Debit</item>
+    </string-array>
+    <string-array name="currency_code">
+        <item>Code</item>
+        <item>Symbol</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bank_information">Bank Information</string>
+    <string name="cash_activity">Cash Activity</string>
+    <string name="personal_loan">Personal Loan</string>
+    <string name="expenses_activity">Expenses Activity</string>
+    <string name="total_section">Total Section</string>
+    <string name="account_balance">Account Balance</string>
+    <string name="cash_balance">Cash Balance</string>
+    <string name="loan">Loan</string>
+    <string name="expenses">Expenses</string>
+    <string name="_4500">$.4500</string>
+    <string name="new_bank">New Bank</string>
+    <string name="status">Status:</string>
+    <string name="clear">Clear</string>
+    <string name="prasent_cash">Prasent Cash:</string>
+    <string name="new_cash_activity">New Cash Activity</string>
+    <string name="select_date">Select Date</string>
+    <string name="type">Type:</string>
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="cash_statement">Cash Statement</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="statement">Statement</string>
+    <string name="currency_setup">Currency Setup</string>
+    <string name="currency_symbol">Currency Symbol</string>
+    <string name="use">Use</string>
+    <string name="currency">Currency</string>
+    <string name="currency_code">Currency Code</string>
+    <string name="bank_activity">Bank Activity</string>
+    <string name="pincode_access">Pincode Access</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="pin_code_confirm">Pin Code Confirm</string>
+    <string name="setup">Setup</string>
+    <string name="developer">Developer:</string>
+    <string name="mostofa_shahadat_adnan">Mostofa Shahadat Adnan</string>
+    <string name="address">Address:</string>
+    <string name="mobile">Mobile:</string>
+    <string name="email">Email:</string>
+    <string name="about_us">About Us</string>
+    <string name="bank_info">Bank Info</string>
+
+</resources>

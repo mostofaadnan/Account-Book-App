@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.foodorder.accountbook.Fragment.Dashboard"
+        android:label="@string/deshboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/bankInfo"
+        android:name="com.foodorder.accountbook.Fragment.BankInfo"
+        android:label="Bank Inforation"
+        tools:layout="@layout/fragment_bank_info" />
+    <fragment
+        android:id="@+id/nav_cash"
+        android:name="com.foodorder.accountbook.Fragment.Cash"
+        android:label="@string/cash"
+        tools:layout="@layout/fragment_cash" />
+    <fragment
+        android:id="@+id/nav_expenses"
+        android:name="com.foodorder.accountbook.Fragment.Expenses"
+        android:label="@string/expenses"
+        tools:layout="@layout/fragment_expenses" />
+    <fragment
+        android:id="@+id/bankActivityList"
+        android:name="com.foodorder.accountbook.Fragment.BankActivityList"
+        android:label="@string/bank_activity"
+        tools:layout="@layout/fragment_bank_activity_list" />
+    <fragment
+        android:id="@+id/nav_accountBalance"
+        android:name="com.foodorder.accountbook.Fragment.AccountInfo"
+        android:label="Account Balance"
+        tools:layout="@layout/fragment_account_info" />
+    <fragment
+        android:id="@+id/personalloan"
+        android:name="com.foodorder.accountbook.Fragment.personalloan"
+        android:label="@string/personal_loan"
+        tools:layout="@layout/fragment_personalloan" />
+    <fragment
+        android:id="@+id/currencySetup"
+        android:name="com.foodorder.accountbook.Fragment.CurrencySetup"
+        android:label="Currency Setup"
+        tools:layout="@layout/fragment_currency_setup" />
+    <fragment
+        android:id="@+id/statementMain"
+        android:name="com.foodorder.accountbook.Fragment.StatementMain"
+        android:label="@string/statement"
+        tools:layout="@layout/fragment_statement_main" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.foodorder.accountbook.Fragment.Setting"
+        android:label="Setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/aboutUs"
+        android:name="com.foodorder.accountbook.Fragment.AboutUs"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
+
+
+</navigation>

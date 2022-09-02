@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/bankInfo"
+            android:icon="@drawable/bank"
+            android:title="@string/bank_information"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/bankActivityList"
+            android:icon="@drawable/bankactivity"
+            android:title="@string/bank_activitys"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_accountBalance"
+            android:icon="@drawable/accounting"
+            android:title="@string/account_balance"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_cash"
+            android:icon="@drawable/cash"
+            android:title="@string/cash"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/personalloan"
+            android:icon="@drawable/loan"
+            android:title="@string/personal_loan"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/nav_expenses"
+            android:icon="@drawable/expensive"
+            android:title="@string/expenses"
+            android:menuCategory="secondary"
+            />
+        <item
+            android:id="@+id/statementMain"
+            android:icon="@drawable/statement"
+            android:title="@string/statement"
+            android:menuCategory="secondary"
+            />
+    </group>
+    <item android:title="Other"
+        android:menuCategory="secondary"
+        >
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/settings"
+                android:title="Setting"
+                android:menuCategory="secondary"
+                />
+            <item
+                android:id="@+id/aboutUs"
+                android:title="About Us"
+                android:menuCategory="secondary"
+                />
+
+        </menu>
+    </item>
+</menu>
